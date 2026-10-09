@@ -1,0 +1,35 @@
+# Build trees
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+
+# Compiler and linker outputs (fixtures are generated during the build)
+*.o
+*.obj
+*.so
+*.so.*
+*.a
+*.map
+a.out
+/hello
+/hello_O0
+/hello_O2
+/math_program
+/math_static
+
+# CMake artifacts produced by in-source configuration
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Testing/
+cmake_install.cmake
+compile_commands.json
+
+# Editors and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
